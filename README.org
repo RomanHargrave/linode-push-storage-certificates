@@ -1,0 +1,7 @@
+* Certbot hook that applies certs to linode object storage
+
+Linode object storage allows for a custom certificate to be supplied so that HTTPS requests may be made
+to aliased domains (e.g. ~cdn.example.org~ has a ~CNAME~ to ~example-cdn.us-east-1.linodeobjects.com~).
+
+If you are issuing your certs via Certbot and an ACME provider, this script can be set up to
+automatically copy freshly issued certificates and keys to the object storage configuration.

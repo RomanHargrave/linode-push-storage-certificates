@@ -1,0 +1,3 @@
+linode:
+  api_key: "API KEY HERE"
+  cluster: us-east-1
